@@ -4,7 +4,12 @@
     flex-direction: column;
     align-items: center;
     background-color: rgb(241,242,209);
+    margin-top: 0;
   }
 
-  
+  #steps.container.grey .row {
+     background-color: white;
+  }
+
+
 }
