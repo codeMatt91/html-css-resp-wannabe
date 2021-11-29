@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 @media screen and (max-width: 420px) {
   .row {
     display: flex;
@@ -32,17 +38,15 @@
 
 /************ BONUS  ************/
 
-@media screen and (max-width: 700px) {
-  .first {
-    width: 30%;
+@media screen and (min-width: 421px) {
+  #why .row > .first,
+  #why .row > .second,
+  #why .row > .third {
+    width: 33.3%;
     float: left;
   }
-  .second {
-    width: 30%;
-    float: left;
-  }
-  .third {
-    width: 30%;
-    float: left;
+  #why,
+  #steps.container.grey {
+    background-color: white;
   }
 }
